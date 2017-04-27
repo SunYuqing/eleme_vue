@@ -43,5 +43,7 @@
 4. 关于felx的知识补充： flex属性是flex-grow,flex-shrink,flex-basic的简写。默认值为 0,1，auto
    分别表示 项目的放大比例，项目的缩小比例，和项目占据的主轴空间。当前两项为0时表示不放大也不缩小。
 5.使用display: table 设置垂直居中
+6.display: inline-block 时最好设置其父元素font-size：0，防止空白字节占据空间。
+    也可以在代码中删掉行内元素间的空白字符
 
 
